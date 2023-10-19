@@ -4,13 +4,13 @@
   "description": "this a api for burger builder app",
   "main": "index.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{
-    "node":"18.17.1"
-    },
-    "mongoose":"9.6.7",
+  "engines": {
+    "node": "18.17.1"
+  },
+ 
   "author": "Simanto sir",
   "license": "ISC",
   "dependencies": {
@@ -22,6 +22,7 @@
     "joi": "^17.11.0",
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
+    "mongoose": "7.5.0",
     "morgan": "^1.10.0"
   }
 }
