@@ -10,7 +10,6 @@
   "engines": {
     "node": "18.17.1"
   },
- 
   "author": "Simanto sir",
   "license": "ISC",
   "dependencies": {
@@ -23,6 +22,7 @@
     "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
     "mongoose": "7.5.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "ssl-commerz-node": "^1.0.4"
   }
 }
