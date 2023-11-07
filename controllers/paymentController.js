@@ -36,7 +36,7 @@ module.exports.initPayment = async (req, res) => {
 
   const tran_id =
     "_" + Math.random().toString(36).substring(2, 9) + new Date().getTime();
-
+console.log(process.env.STORE_ID);
   const payment = new PaymentSession(
     true,
     process.env.STORE_ID,
